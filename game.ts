@@ -1,3 +1,6 @@
+// simulates 'Monty Hall problem' (https://en.wikipedia.org/wiki/Monty_Hall_problem)
+// requires typescript compiler to run
+
 const simulate = (isSwitching: boolean) => {
   const doors = generateDoors();
   let selectedDoorIndex = randomNumber(3);
